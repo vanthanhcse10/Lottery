@@ -1,3 +1,2 @@
 # Lottery
 
-xin chao
