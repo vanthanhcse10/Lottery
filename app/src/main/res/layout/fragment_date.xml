@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:stretchColumns="1"
+    android:shrinkColumns="1"
+    android:layout_height="match_parent"
+    android:id="@+id/tbLottery">
+
+    <TableRow>
+        <TextView  android:text="Giải"/>
+        <TextView  android:text="Kết quả" />
+    </TableRow>
+
+    <TableRow>
+        <TextView  android:text="Giải Đặc Biệt"/>
+        <TextView  android:id="@+id/rate0" />
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Nhất"/>
+        <TextView  android:id="@+id/Rate1" />
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Nhì"/>
+        <TextView  android:id="@+id/Rate2" />
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Ba"/>
+        <TextView  android:id="@+id/Rate3" />
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Tư " android:layout_height="wrap_content"/>
+
+        <TextView  android:id="@+id/Rate4"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Năm"/>
+        <TextView  android:id="@+id/Rate5" />
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Sáu"/>
+        <TextView  android:id="@+id/Rate6" />
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Bảy"/>
+        <TextView  android:id="@+id/Rate7" />
+    </TableRow>
+    <TableRow>
+        <TextView  android:text="Giải Tám"/>
+        <TextView  android:id="@+id/Rate8" />
+    </TableRow>
+
+</TableLayout>

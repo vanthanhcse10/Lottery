@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.thanhnguyen.lottery.Detail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:hint="Tên tỉnh"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/txtProvinceName"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="270dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Ngày: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22dp"
+            android:layout_weight="0.24" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/spDate"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Hiển thị"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDisplay"
+            android:textStyle="bold"
+            android:layout_weight="0.24"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.thanhnguyen.fragment.MyFragment"
+        android:id="@+id/my_fagment"
+        android:layout_marginTop="15dp">
+        </FrameLayout>
+
+
+</LinearLayout>
